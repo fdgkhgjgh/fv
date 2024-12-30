@@ -1,0 +1,9 @@
+{
+    "name": "forum-app-root",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "postinstall": "npm install --prefix forum-app && npm run build --prefix forum-app"
+    }
+  }
+  
